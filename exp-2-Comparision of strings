@@ -1,0 +1,15 @@
+import java.util.*;
+public class compare {
+	public static void main(String[]args) {
+		String str1,str2;
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the name:");
+		str1=s.nextLine();
+		System.out.println("renter the name:");
+		str2=s.nextLine();
+		if(str1.equals(str2)) {
+			System.out.println("valid name");
+		}
+	}
+
+}
