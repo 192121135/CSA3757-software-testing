@@ -1,0 +1,16 @@
+import java.util.*;
+public class decimal {
+	public static void main(String[]args) {
+		int decimal;
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the decimal number");
+		decimal=s.nextInt();
+		String binary = Integer.toBinaryString(decimal);
+        String octal = Integer.toOctalString(decimal);
+        
+        System.out.println("Binary equivalent: " + binary);
+        System.out.println("Octal equivalent: " + octal);
+        
+	}
+
+}
