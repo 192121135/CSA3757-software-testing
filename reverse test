@@ -1,0 +1,15 @@
+package proggrammingknowledge;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class Stringreversee {
+        @Test
+	void testStringreversee() {
+		Stringreverse example = new Stringreverse();
+                        assertEquals("tac", example.reverse("cat"));
+	        assertNull(example.reverse(null));
+	        assertEquals("", example.reverse(""));
+}
+
+}
+
