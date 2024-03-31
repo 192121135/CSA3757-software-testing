@@ -1,0 +1,6 @@
+@Test
+	void testCalculateSimpleInterest() {
+        assertEquals(200.0, simpleintrest.calculateSimpleInterest(1000.0, 5.0, 4.0), 0.01);
+        assertEquals(450.0, simpleintrest.calculateSimpleInterest(3000.0, 3.0, 5.0), 0.01);
+        assertEquals(75.0, simpleintrest.calculateSimpleInterest(1500.0, 2.0, 2.5), 0.01);
+    }}
