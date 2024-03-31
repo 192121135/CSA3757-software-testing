@@ -1,0 +1,17 @@
+class voteTest {
+
+	@Test
+
+		 void testEligibleVoter() {
+	        assertEquals("Eligible for voting", vote.checkEligibility(18));
+	        assertEquals("Eligible for voting", vote.checkEligibility(21));
+	        assertEquals("Eligible for voting", vote.checkEligibility(30));
+	    }
+
+	    @Test
+	     void testNonEligibleVoter() {
+	        assertEquals("Not eligible for voting", vote.checkEligibility(17));
+	        assertEquals("Not eligible for voting", vote.checkEligibility(16));
+	        assertEquals("Not eligible for voting", vote.checkEligibility(12));
+	    }
+	}
